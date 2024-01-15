@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./src/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "strict": false
+  },
+  "typeRoots": [
+    "./src/typings",
+    "./node_modules/@types/"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
